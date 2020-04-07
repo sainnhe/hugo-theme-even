@@ -9,7 +9,7 @@ $theme-color-config: 'Default';
 
 // Default theme color map
 $theme-color-map: (
-  'Default': #c05b4d #f8f5ec,
+  'Default': #6996e0 #fafafa,
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
@@ -31,16 +31,16 @@ $deputy-color: nth($theme-color-list, 2) !default;
 
 
 // ========== Color ========== //
-$black: #0a0a0a !default;
-$white: #fefefe !default;
-$light-gray: #e6e6e6 !default;
-$gray: #cacaca !default;
-$dark-gray: #8a8a8a !default;
+$black: #4b505b !default;
+$white: #ffffff !default;
+$light-gray: #e8ebf0 !default;
+$gray: #bcc5cf !default;
+$dark-gray: #949ba5 !default;
 
 
 // ========== Global ========== //
 // Text color of the body.
-$global-font-color: #34495e !default;
+$global-font-color: #4b505b !default;
 
 // Font size attribute applied to '<html>' and '<body>'.
 $global-font-size: 16px !default;
@@ -187,7 +187,7 @@ $content-table-border-color: darken($deputy-color, 3%) !default;
 
 // ========== Code ========== //
 // Color of the code.
-$code-color: #c7254e !default;
+$code-color: #4b505b !default;
 
 // Font size of code.
 $code-font-size: 0.9em !default;
@@ -198,14 +198,14 @@ $code-font-family: Consolas, Monaco, Menlo, "DejaVu Sans Mono",
 
 // Color of code highlight, solarized.
 $code-highlight-color: (
-  comment: #93a1a1,
-  keyword: #859900,
-  number: #2aa198,
-  title: #268bd2,
-  attribute: #b58900,
-  symbol: #cb4b16,
-  built_in: #dc322f,
-  formula: #eee8d5
+  comment: #949ba5,
+  keyword: #b05ccc,
+  number: #608e32,
+  title: #5079be,
+  attribute: #3a8b84,
+  symbol: #d05858,
+  built_in: #be7e05,
+  formula: #eef1f4
 ) !default;
 
 // Code type list.
