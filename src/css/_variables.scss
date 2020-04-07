@@ -198,13 +198,27 @@ $code-font-family: Consolas, Monaco, Menlo, "DejaVu Sans Mono",
 
 // Color of code highlight, solarized.
 $code-highlight-color: (
+  normal: #4b505b,
   comment: #949ba5,
   keyword: #b05ccc,
+  preproc: #b05ccc,
   number: #608e32,
+  string: #608e32,
   title: #5079be,
-  attribute: #3a8b84,
+  function: #5079be,
+  attribute: #d05858,
+  variable: #d05858,
+  prop: #d05858,
+  constant: #d05858,
+  type: #be7e05,
   symbol: #d05858,
-  built_in: #be7e05,
+  error: #d05858,
+  operator: #5079be,
+  built_in: #3a8b84,
+  class: #3a8b84,
+  namespace: #3a8b84,
+  unit: #608e32,
+  label: #5079be,
   formula: #eef1f4
 ) !default;
 
