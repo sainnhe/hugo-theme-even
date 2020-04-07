@@ -208,7 +208,7 @@ figure.highlight {
   }
 
   /* LineNumbersTable */  .lnt { color: $gray; }
-  /* LineHighlight */  .hl { display: block; width: 100%; background-color: #ffffcc }
+  /* LineHighlight */  .hl { display: block; width: 100%; background-color: map-get($code-highlight-color, line_bg) }
 
   /* Keyword */  .k { color: map-get($code-highlight-color, keyword) }
   /* KeywordConstant */  .kc { color: map-get($code-highlight-color, constant) }
