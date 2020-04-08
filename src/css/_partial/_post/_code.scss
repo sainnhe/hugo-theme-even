@@ -5,6 +5,17 @@ code, pre {
   background: $code-background;
 }
 
+span.lnt {
+  background: $code-background;
+}
+
+code:not([class]), code[class=""] {
+  padding: 7px;
+  font-size: $code-font-size;
+  font-family: $code-font-family;
+  background: $inline-bg;
+}
+
 code {
   padding: 3px 5px;
   border-radius: 4px;
