@@ -230,7 +230,7 @@ figure.highlight {
   /* NameFunctionMagic */  .fm { color: map-get($code-highlight-color, function) }
   /* NameLabel */  .nl { color: map-get($code-highlight-color, label) }
   /* NameNamespace */  .nn { color: map-get($code-highlight-color, namespace) }
-  /* NameOther */  .nx { color: map-get($code-highlight-color, unit) }
+  /* NameOther */  .nx { color: map-get($code-highlight-color, attribute) }
   /* NameProperty */  .py { color: map-get($code-highlight-color, prop) }
   /* NameTag */  .nt { color: map-get($code-highlight-color, label) }
   /* NameVariable */  .nv { color: map-get($code-highlight-color, normal) }
@@ -262,13 +262,13 @@ figure.highlight {
   /* LiteralNumberIntegerLong */  .il { color: map-get($code-highlight-color, number) }
   /* LiteralNumberOct */  .mo { color: map-get($code-highlight-color, number) }
   /* OperatorWord */  .ow { color: map-get($code-highlight-color, operator) }
-  /* Comment */  .c { color: map-get($code-highlight-color, comment); font-style: italic }
-  /* CommentHashbang */  .ch { color: map-get($code-highlight-color, comment); font-style: italic }
-  /* CommentMultiline */  .cm { color: map-get($code-highlight-color, comment); font-style: italic }
-  /* CommentSingle */  .c1 { color: map-get($code-highlight-color, comment); font-style: italic }
-  /* CommentSpecial */  .cs { color: map-get($code-highlight-color, comment); font-style: italic }
-  /* CommentPreproc */  .cp { color: map-get($code-highlight-color, comment); font-style: italic }
-  /* CommentPreprocFile */  .cpf { color: map-get($code-highlight-color, comment); font-style: italic }
+  /* Comment */  .c { color: map-get($code-highlight-color, comment) }
+  /* CommentHashbang */  .ch { color: map-get($code-highlight-color, comment) }
+  /* CommentMultiline */  .cm { color: map-get($code-highlight-color, comment) }
+  /* CommentSingle */  .c1 { color: map-get($code-highlight-color, comment) }
+  /* CommentSpecial */  .cs { color: map-get($code-highlight-color, comment) }
+  /* CommentPreproc */  .cp { color: map-get($code-highlight-color, comment) }
+  /* CommentPreprocFile */  .cpf { color: map-get($code-highlight-color, comment) }
   /* Generic */  .g { color: map-get($code-highlight-color, normal) }
   /* GenericDeleted */  .gd { color: map-get($code-highlight-color, error) }
   /* GenericEmph */  .ge { color: map-get($code-highlight-color, keyword) }
