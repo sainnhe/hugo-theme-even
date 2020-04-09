@@ -122,7 +122,18 @@ $header-padding: 20px 20px !default;
 }
 
 // Font family: Sail
-@import url('https://fonts.font.im/css?family=Sail');
+@font-face {
+  font-family: 'Sail';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/sail/sail-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Sail'), local('Sail-Regular'),
+       url('../fonts/sail/sail-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sail/sail-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/sail/sail-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/sail/sail-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sail/sail-v10-latin-regular.svg#Sail') format('svg'); /* Legacy iOS */
+}
 
 // Font size of the logo.
 $logo-font-size: 48px !default;

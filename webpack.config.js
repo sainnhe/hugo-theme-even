@@ -64,6 +64,10 @@ module.exports = {
       {
         test: /apple-chancery-webfont\.(woff|woff2|eot|ttf|otf|svg)$/,
         use: ['file-loader?name=[path][name].[ext]']
+      },
+      {
+        test: /sail-v10-latin-regular\.(woff|woff2|eot|ttf|svg)$/,
+        use: ['file-loader?name=[path][name].[ext]']
       }
     ]
   },
