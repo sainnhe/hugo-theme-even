@@ -22,6 +22,11 @@ code {
   color: $code-color;
 }
 
+blockquote {
+  color: $code-color;
+}
+
+
 // highlight.js
 figure.highlight {
   margin: 1em 0;
@@ -41,8 +46,8 @@ figure.highlight {
       padding: 2px 7px;
       font-size: $code-font-size;
       font-weight: bold;
-      color: darken($gray, 10%);
-      background: darken($code-background, 3%);
+      color: $code-header-fg;
+      background: $code-header-bg;
       content: 'Code';
     }
   }
@@ -175,8 +180,8 @@ figure.highlight {
       padding: 2px 7px;
       font-size: $code-font-size;
       font-weight: bold;
-      color: darken($gray, 10%);
-      background: darken($code-background, 3%);
+      color: $code-header-fg;
+      background: $code-header-bg;
       content: 'Code';
     }
   }

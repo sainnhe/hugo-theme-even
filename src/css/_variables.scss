@@ -9,7 +9,7 @@ $theme-color-config: 'Default';
 
 // Default theme color map
 $theme-color-map: (
-  'Default': #4e80e0 #f6f9fe,
+  'Default': #4e80e0 #fff,
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
@@ -17,12 +17,14 @@ $theme-color-map: (
 );
 
 $block-border: #4e80e0a0;
-$toc-bg: #fafafa;
-$block-bg: #f6f9fe;
-$inline-bg: #f5f5f5;
+$toc-bg: #f7fafc;
+$code-header-bg: #eef2f6;
+$code-header-fg: #949ba5;
+$block-bg: #f7fafc;
+$inline-bg: #f3f6f8;
 $global-font-color: #42464e !default;
 $black: #42464e !default;
-$white: #ffffff !default;
+$white: #fff !default;
 $light-gray: #e8ebf0 !default;
 $gray: #bcc5cf !default;
 $dark-gray: #949ba5 !default;
