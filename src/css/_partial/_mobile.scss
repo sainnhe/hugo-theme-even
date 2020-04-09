@@ -31,7 +31,7 @@
   }
 
   .mobile-navbar-icon {
-    color: $theme-color;
+    color: $accent;
     height: $mobile-navbar-height;
     width: $mobile-navbar-height;
     font-size: 24px;
@@ -64,7 +64,7 @@
       font-family: $global-serif-font-family;
 
       &:hover {
-        color: $theme-color;
+        color: $accent;
       }
     }
   }
