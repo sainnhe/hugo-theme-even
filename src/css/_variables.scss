@@ -9,53 +9,53 @@ $theme-color-config: 'Default';
 
 // Default theme color map
 $theme-color-map: (
-  'Default': #4e80e0 #fff,
+  'Default': #6cb6eb #2b2d37,
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
   'Dark Violet': #9932CC #f5f4fa
 );
 
-$accent: #bf75d6;
-$block-border: #4e80e0a0;
-$toc-bg: #f7fafc;
-$code-header-bg: #eef2f6;
-$code-header-fg: #949ba5;
-$block-bg: #f7fafc;
-$inline-bg: #f3f6f8;
-$global-font-color: #42464e !default;
-$black: #42464e !default;
-$white: #fff !default;
-$light-gray: #e8ebf0 !default;
-$gray: #bcc5cf !default;
-$dark-gray: #949ba5 !default;
+$accent: #d38aea;
+$block-border: #6cb6ebc8;
+$toc-bg: #2f323e;
+$code-header-bg: #3a3e4e;
+$code-header-fg: #7e869b;
+$block-bg: #2f323e;
+$inline-bg: #363a49;
+$global-font-color: #c5cdd9 !default;
+$black: #c5cdd9 !default;
+$white: #2b2d37 !default;
+$light-gray: #404455 !default;
+$gray: #5f6578 !default;
+$dark-gray: #7e869b !default;
 
 // Color of the code.
-$code-color: #42464e !default;
+$code-color: #c5cdd9 !default;
 $code-highlight-color: (
-  normal: #42464e,
-  formula: #eff4fd,
-  line_bg: #eff4fd,
-  comment: #949ba5,
-  keyword: #b05ccc,
-  preproc: #b05ccc,
-  number: #608e32,
-  string: #608e32,
-  title: #5079be,
-  function: #5079be,
-  attribute: #d05858,
-  variable: #d05858,
-  prop: #d05858,
-  constant: #d05858,
-  type: #be7e05,
-  symbol: #d05858,
-  error: #d05858,
-  operator: #5079be,
-  built_in: #3a8b84,
-  class: #3a8b84,
-  namespace: #3a8b84,
-  unit: #608e32,
-  label: #5079be
+  normal: #c5cdd9,
+  formula: #363a49,
+  line_bg: #363a49,
+  comment: #7e869b,
+  keyword: #d38aea,
+  preproc: #d38aea,
+  number: #a0c980,
+  string: #a0c980,
+  title: #6cb6eb,
+  function: #6cb6eb,
+  attribute: #ec7279,
+  variable: #ec7279,
+  prop: #ec7279,
+  constant: #ec7279,
+  type: #deb974,
+  symbol: #ec7279,
+  error: #ec7279,
+  operator: #6cb6eb,
+  built_in: #5dbbc1,
+  class: #5dbbc1,
+  namespace: #5dbbc1,
+  unit: #a0c980,
+  label: #6cb6eb
 ) !default;
 
 // Check theme color config.
