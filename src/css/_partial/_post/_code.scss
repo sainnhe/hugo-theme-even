@@ -14,6 +14,7 @@ code:not([class]), code[class=""] {
   font-size: $code-font-size;
   font-family: $code-font-family;
   background: $inline-bg;
+  color: $inline-fg;
 }
 
 code {
