@@ -8,7 +8,9 @@
   {{ if .Site.LanguagePrefix -}}
     <a href="{{ .Site.LanguagePrefix | absURL }}/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
   {{- else -}}
-    <a href="{{ .Site.RSSLink }}" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<a href="%s" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>` .RelPermalink | safeHTML }}
+    {{ end -}}
   {{- end }}
 </div>
 
